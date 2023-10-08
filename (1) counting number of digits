@@ -1,0 +1,12 @@
+logic 1
+int digits = floor(log10(n) + 1);
+  return digits;
+
+logic 2 
+int x = n; int count =0;
+   while( x !=0 ) 
+   {
+       x = x / 10;
+       count++;
+   }
+   return count;
